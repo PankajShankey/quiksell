@@ -1,0 +1,34 @@
+.avatar-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .avatar {
+    background-color: #f7b5a3;
+    color: white;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+  
+  .status-dot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid white; /* Optional: adds a white border around the dot */
+  }
+  
+  .status-dot.active {
+    background-color: green;
+  }
+  .status-dot.inactive {
+    background-color: grey;
+  }
